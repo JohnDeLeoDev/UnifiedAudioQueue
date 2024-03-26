@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5211E27A2BA8C5AA006B7730 /* MusicModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5211E2792BA8C5AA006B7730 /* MusicModels.swift */; };
+		5218C5672BAB455200AE3063 /* QueueModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5218C5662BAB455200AE3063 /* QueueModel.swift */; };
+		5218C5692BAB529A00AE3063 /* QueueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5218C5682BAB529A00AE3063 /* QueueView.swift */; };
+		525689F72BAB2DC9007165BC /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525689F62BAB2DC9007165BC /* TabBarView.swift */; };
+		525689F92BAB30F6007165BC /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525689F82BAB30F6007165BC /* MenuView.swift */; };
+		526783182BADF46300729673 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526783172BADF46300729673 /* SettingsView.swift */; };
+		5267831A2BADF6C800729673 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526783192BADF6C800729673 /* SearchView.swift */; };
 		52AAC4F92BA87AB500762CEF /* UnifiedAudioQueueApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AAC4F82BA87AB500762CEF /* UnifiedAudioQueueApp.swift */; };
 		52AAC4FB2BA87AB500762CEF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AAC4FA2BA87AB500762CEF /* ContentView.swift */; };
 		52AAC4FD2BA87AB700762CEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52AAC4FC2BA87AB700762CEF /* Assets.xcassets */; };
@@ -14,6 +21,9 @@
 		52AAC50A2BA87AB700762CEF /* UnifiedAudioQueueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AAC5092BA87AB700762CEF /* UnifiedAudioQueueTests.swift */; };
 		52AAC5142BA87AB700762CEF /* UnifiedAudioQueueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AAC5132BA87AB700762CEF /* UnifiedAudioQueueUITests.swift */; };
 		52AAC5162BA87AB700762CEF /* UnifiedAudioQueueUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AAC5152BA87AB700762CEF /* UnifiedAudioQueueUITestsLaunchTests.swift */; };
+		52AAC5252BA87F7600762CEF /* MusicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AAC5242BA87F7500762CEF /* MusicView.swift */; };
+		52AAC5292BA8845400762CEF /* PodcastsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AAC5282BA8845400762CEF /* PodcastsView.swift */; };
+		52AAC52D2BA8855C00762CEF /* PodcastModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AAC52C2BA8855C00762CEF /* PodcastModels.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +44,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5211E2792BA8C5AA006B7730 /* MusicModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicModels.swift; sourceTree = "<group>"; };
+		5218C5662BAB455200AE3063 /* QueueModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueModel.swift; sourceTree = "<group>"; };
+		5218C5682BAB529A00AE3063 /* QueueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueView.swift; sourceTree = "<group>"; };
+		525689F62BAB2DC9007165BC /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		525689F82BAB30F6007165BC /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		526783172BADF46300729673 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		526783192BADF6C800729673 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		52AAC4F52BA87AB500762CEF /* UnifiedAudioQueue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnifiedAudioQueue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52AAC4F82BA87AB500762CEF /* UnifiedAudioQueueApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnifiedAudioQueueApp.swift; sourceTree = "<group>"; };
 		52AAC4FA2BA87AB500762CEF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +61,9 @@
 		52AAC50F2BA87AB700762CEF /* UnifiedAudioQueueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnifiedAudioQueueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52AAC5132BA87AB700762CEF /* UnifiedAudioQueueUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnifiedAudioQueueUITests.swift; sourceTree = "<group>"; };
 		52AAC5152BA87AB700762CEF /* UnifiedAudioQueueUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnifiedAudioQueueUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		52AAC5242BA87F7500762CEF /* MusicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicView.swift; sourceTree = "<group>"; };
+		52AAC5282BA8845400762CEF /* PodcastsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastsView.swift; sourceTree = "<group>"; };
+		52AAC52C2BA8855C00762CEF /* PodcastModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastModels.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +91,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5218C5632BAB41DB00AE3063 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		52AAC4EC2BA87AB500762CEF = {
 			isa = PBXGroup;
 			children = (
@@ -96,7 +123,10 @@
 			children = (
 				52AAC4F82BA87AB500762CEF /* UnifiedAudioQueueApp.swift */,
 				52AAC4FA2BA87AB500762CEF /* ContentView.swift */,
+				52AAC52A2BA884E600762CEF /* Models */,
+				52AAC52B2BA884F300762CEF /* Views */,
 				52AAC4FC2BA87AB700762CEF /* Assets.xcassets */,
+				5218C5632BAB41DB00AE3063 /* Extensions */,
 				52AAC4FE2BA87AB700762CEF /* Preview Content */,
 			);
 			path = UnifiedAudioQueue;
@@ -125,6 +155,30 @@
 				52AAC5152BA87AB700762CEF /* UnifiedAudioQueueUITestsLaunchTests.swift */,
 			);
 			path = UnifiedAudioQueueUITests;
+			sourceTree = "<group>";
+		};
+		52AAC52A2BA884E600762CEF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5218C5662BAB455200AE3063 /* QueueModel.swift */,
+				5211E2792BA8C5AA006B7730 /* MusicModels.swift */,
+				52AAC52C2BA8855C00762CEF /* PodcastModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		52AAC52B2BA884F300762CEF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				525689F82BAB30F6007165BC /* MenuView.swift */,
+				525689F62BAB2DC9007165BC /* TabBarView.swift */,
+				5218C5682BAB529A00AE3063 /* QueueView.swift */,
+				52AAC5242BA87F7500762CEF /* MusicView.swift */,
+				52AAC5282BA8845400762CEF /* PodcastsView.swift */,
+				526783172BADF46300729673 /* SettingsView.swift */,
+				526783192BADF6C800729673 /* SearchView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +311,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				525689F72BAB2DC9007165BC /* TabBarView.swift in Sources */,
+				5218C5672BAB455200AE3063 /* QueueModel.swift in Sources */,
 				52AAC4FB2BA87AB500762CEF /* ContentView.swift in Sources */,
+				52AAC5252BA87F7600762CEF /* MusicView.swift in Sources */,
+				5267831A2BADF6C800729673 /* SearchView.swift in Sources */,
+				525689F92BAB30F6007165BC /* MenuView.swift in Sources */,
+				5211E27A2BA8C5AA006B7730 /* MusicModels.swift in Sources */,
 				52AAC4F92BA87AB500762CEF /* UnifiedAudioQueueApp.swift in Sources */,
+				52AAC52D2BA8855C00762CEF /* PodcastModels.swift in Sources */,
+				5218C5692BAB529A00AE3063 /* QueueView.swift in Sources */,
+				52AAC5292BA8845400762CEF /* PodcastsView.swift in Sources */,
+				526783182BADF46300729673 /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
